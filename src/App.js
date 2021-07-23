@@ -2,9 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  <h1>Lueber</h1>
-    </div>
-  );
+  return(
+    <h1>Lueber</h1>
+  )
+   
+  
 }
 
 export default App;
