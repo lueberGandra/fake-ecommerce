@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/fake-ecommerce/static/css/main.a617e044.chunk.css",
-    "main.js": "/fake-ecommerce/static/js/main.1d313cba.chunk.js",
-    "main.js.map": "/fake-ecommerce/static/js/main.1d313cba.chunk.js.map",
-    "runtime-main.js": "/fake-ecommerce/static/js/runtime-main.34bd77ad.js",
-    "runtime-main.js.map": "/fake-ecommerce/static/js/runtime-main.34bd77ad.js.map",
-    "static/js/2.1732e4d2.chunk.js": "/fake-ecommerce/static/js/2.1732e4d2.chunk.js",
-    "static/js/2.1732e4d2.chunk.js.map": "/fake-ecommerce/static/js/2.1732e4d2.chunk.js.map",
-    "static/js/3.aaab3e5e.chunk.js": "/fake-ecommerce/static/js/3.aaab3e5e.chunk.js",
-    "static/js/3.aaab3e5e.chunk.js.map": "/fake-ecommerce/static/js/3.aaab3e5e.chunk.js.map",
+    "main.css": "/fake-ecommerce/static/css/main.b17b5164.chunk.css",
+    "main.js": "/fake-ecommerce/static/js/main.fa93cc5a.chunk.js",
+    "main.js.map": "/fake-ecommerce/static/js/main.fa93cc5a.chunk.js.map",
+    "runtime-main.js": "/fake-ecommerce/static/js/runtime-main.06c86df8.js",
+    "runtime-main.js.map": "/fake-ecommerce/static/js/runtime-main.06c86df8.js.map",
+    "static/css/2.4be38407.chunk.css": "/fake-ecommerce/static/css/2.4be38407.chunk.css",
+    "static/js/2.6199ee8f.chunk.js": "/fake-ecommerce/static/js/2.6199ee8f.chunk.js",
+    "static/js/2.6199ee8f.chunk.js.map": "/fake-ecommerce/static/js/2.6199ee8f.chunk.js.map",
     "index.html": "/fake-ecommerce/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/fake-ecommerce/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.1732e4d2.chunk.js.LICENSE.txt": "/fake-ecommerce/static/js/2.1732e4d2.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/fake-ecommerce/static/media/logo.6ce24c58.svg"
+    "static/css/2.4be38407.chunk.css.map": "/fake-ecommerce/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.b17b5164.chunk.css.map": "/fake-ecommerce/static/css/main.b17b5164.chunk.css.map",
+    "static/js/2.6199ee8f.chunk.js.LICENSE.txt": "/fake-ecommerce/static/js/2.6199ee8f.chunk.js.LICENSE.txt",
+    "static/media/logo.a8eb2269.png": "/fake-ecommerce/static/media/logo.a8eb2269.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.34bd77ad.js",
-    "static/js/2.1732e4d2.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.1d313cba.chunk.js"
+    "static/js/runtime-main.06c86df8.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.6199ee8f.chunk.js",
+    "static/css/main.b17b5164.chunk.css",
+    "static/js/main.fa93cc5a.chunk.js"
   ]
 }
