@@ -6,10 +6,10 @@
 }
 
 .productCard {
-    width: 160px;
-    height: 250px;
+    width: 145px;
+    height: 220px;
     margin: 10px;
-    padding: 15px ;
+    padding: 15px;
     background-color: $primary-color;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
     border-radius: $default-border-radius;
     transition: all .3s ease;
     overflow: hidden;
-  
+
 
     &:hover {
         transform: scale(1.01);
@@ -27,16 +27,16 @@
 
     .productCard-imgWrapper {
         background-color: $bgc-grey;
-        box-shadow: inset 0 0 1em rgba(0, 0, 0, 0.424)  ;     
+        box-shadow: inset 0 0 1em rgba(0, 0, 0, 0.424);
         width: 150%;
-        height: 120px;
+        height: 100px;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: $default-border-radius;
 
         img {
-            width: 70%;
+            width: 60%;
         }
     }
 
@@ -51,33 +51,33 @@
         align-items: center;
 
         .info-tittle {
-            font-size: 1.7rem;
+            font-size: 1.5rem;
             color: $secondary-color;
             font-family: $primary-font;
-         
+
 
         }
 
         .info-price {
-            font-size: 1.4rem;
+            font-size: 1rem;
             color: #fff;
             font-family: $primary-font;
             font-weight: 300;
-            margin: 2px;
+
             letter-spacing: .2rem;
         }
 
         .info-bttadd {
             display: flex;
             justify-content: space-around;
-            align-items: center;            
-            width: 100%;
+            align-items: center;            width: 100%;
             height: 35px;
-            margin: 5px;
+            
+            padding: 1px;
             color: #fff;
             border-radius: $default-border-radius;
             background-color: $alert-color;
-           
+
             cursor: pointer;
             text-transform: uppercase;
 
@@ -85,25 +85,24 @@
                 transition: all .3s ease;
                 filter: drop-shadow(0 0 0.35rem $alert-color);
             }
-            .btnWrapper-iconWrapper{
+
+            .btnWrapper-iconWrapper {
                 width: 25px;
                 height: 25px;
                 display: flex;
                 align-items: center;
-                img{
-                    width: 90%;
+                justify-content: center;
+
+                img {
+                    width: 70%;
                 }
             }
-            h4{
-                font-family: $primary-font;   
+
+            h4 {
+                font-family: $primary-font;
+                font-size: .7rem;
+                margin: 0;
             }
-
-        
-
-            }
-
-
         }
-
-
     }
+}

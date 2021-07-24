@@ -1,12 +1,13 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './Components/Nav';
-import ProductCard from './Components/ProductCard';
+import Home from './Pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <ProductCard />
+    <div className="App"> 
+    <Nav/>
+      <Home />
     </div>
   )
 
