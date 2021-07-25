@@ -26,7 +26,7 @@
     }
 
     .productCard-imgWrapper {
-        background-color: $bgc-grey;
+        background-color: $bgc-grey;      
         box-shadow: inset 0 0 1em rgba(0, 0, 0, 0.424);
         width: 150%;
         height: 100px;
@@ -34,6 +34,7 @@
         align-items: center;
         justify-content: center;
         border-radius: $default-border-radius;
+        overflow: hidden;
 
         img {
             width: 60%;
