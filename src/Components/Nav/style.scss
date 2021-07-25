@@ -55,10 +55,14 @@ nav {
         img {
             width: 100%;
             cursor: pointer;
+            opacity: .8;
+            filter: $default-drop-shadow;
 
             &:hover {
                 transition: all .3s ease;
-                filter: drop-shadow(0 0 0.3rem $alert-color);
+                opacity: 1;
+                //filter: drop-shadow(0 0 0.3rem $alert-color);
+               
             }
         }
     }

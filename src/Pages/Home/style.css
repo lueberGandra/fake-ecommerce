@@ -7,6 +7,7 @@
   flex-direction: column;
 }
 .home .home-products {
+  z-index: 2;
   background: #fe9501;
   background: linear-gradient(180deg, #fe9501 0%, #a46c1c 100%);
   width: 100%;
@@ -16,6 +17,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.445));
 }
 .home .home-products .home-productsTitle {
   margin: 5px 0 15px;
