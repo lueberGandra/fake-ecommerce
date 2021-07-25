@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,200&display=swap");
+.productCardModal {
+  background-color: #e9e9e9;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 70px;
+  margin: 5px;
+  border-radius: 15px;
+}
+.productCardModal .productCardModal-imgWrapper {
+  height: 55px;
+  width: 55px;
+  margin: 8px;
+  border: 1px #ccc solid;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.productCardModal .productCardModal-imgWrapper .productCardModal-img {
+  height: 100%;
+  width: 100%;
+}
+.productCardModal .productCardModal-InfoBtn {
+  display: flex;
+  height: 90%;
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 5px;
+}
+.productCardModal .productCardModal-InfoBtn .productCardModal-info {
+  width: 120px;
+}
+.productCardModal .productCardModal-InfoBtn .productCardModal-info h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.productCardModal .productCardModal-InfoBtn .productCardModal-info h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  margin: 5px 0;
+  color: #01cd02;
+}
+.productCardModal .productCardModal-InfoBtn .productCardModal-btn {
+  width: 40px;
+  height: 40px;
+  align-self: flex-start;
+}
+.productCardModal .productCardModal-InfoBtn .productCardModal-btn .productCardModal-img {
+  width: 100%;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

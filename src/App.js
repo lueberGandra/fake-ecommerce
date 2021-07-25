@@ -1,12 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from './Containers/NavContainer'
+import Home from './Pages/Home';
 
 function App() {
-  return(
-    <h1>Lueber</h1>
+  return (
+    <div className="App">
+      <Nav />
+      <Home />
+    </div>
   )
-   
-  
+
+
 }
 
 export default App;

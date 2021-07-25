@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,200&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100vw;
+  padding: 0 80px;
+  height: 60px;
+  background: #fff;
+  box-shadow: 0px 2px 5px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 360px) {
+  nav {
+    padding: 0 48px 0 20px;
+  }
+}
+nav img {
+  width: 180px;
+}
+nav .nav-imgWrapper {
+  width: 50px;
+  height: 50px;
+  z-index: 11;
+}
+nav .nav-imgWrapper .navTotal {
+  position: absolute;
+  font-weight: bold;
+  top: 32px;
+  right: 114px;
+  z-index: 1;
+  background-color: #5c53ea;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: #fff;
+}
+@media (max-width: 360px) {
+  nav .nav-imgWrapper .navTotal {
+    right: 85px;
+  }
+}
+nav .nav-imgWrapper .navTotal.show {
+  display: none;
+}
+nav .nav-imgWrapper img {
+  width: 100%;
+  cursor: pointer;
+  opacity: 0.8;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.445));
+}
+nav .nav-imgWrapper img:hover {
+  transition: all 0.3s ease;
+  opacity: 1;
+}/*# sourceMappingURL=style.css.map */
