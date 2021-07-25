@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,200&display=swap");
+.modalCart.show {
+  z-index: 0;
+  width: 260px;
+  padding: 15px 0;
+  position: absolute;
+  right: 90px;
+  top: 15px;
+  background-color: #fff;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.445));
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (max-width: 360px) {
+  .modalCart.show {
+    right: 55px;
+    top: 15px;
+  }
+}
+.modalCart.show .modalCart-saldo {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin: 0;
+}
+.modalCart.show .modalCart-saldoValue {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: #01cd02;
+}
+.modalCart.show .modalCart-products {
+  min-height: 40px;
+  max-height: 350px;
+  overflow: auto;
+}
+.modalCart.show .modalCart-totalValue {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: #01cd02;
+  margin: 5px 0 0;
+}
+.modalCart.show .modalCart-finishBtn {
+  width: 90%;
+  margin: 10px 0 0;
+  color: #fff;
+  border-radius: 15px;
+  background-color: #d81e02;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.modalCart.show .modalCart-finishBtn:hover {
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 0 0.15rem #d81e02);
+}
+
+.modalCart.hidden {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

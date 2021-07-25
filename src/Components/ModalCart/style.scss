@@ -1,0 +1,68 @@
+@import '../../Styles/variables';
+
+.modalCart.show {
+    z-index: 0;
+    width: 260px;
+    padding: 15px 0;
+    position: absolute;
+    right: 90px;
+    top: 15px;
+    background-color: #fff;
+    filter: $default-drop-shadow;
+    border-radius: $default-border-radius;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    @media (max-width: 360px) {
+        right: 55px;
+        top: 15px;
+    }
+
+    .modalCart-saldo {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        margin: 0;
+    }
+
+    .modalCart-saldoValue {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        color: $secondary-color;
+    }
+
+    .modalCart-products {
+        min-height: 40px;
+        max-height: 350px;
+        overflow: auto;
+    }
+
+    .modalCart-totalValue {
+        font-family: $primary-font;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        color: $secondary-color;
+        margin: 5px 0 0;
+    }
+
+    .modalCart-finishBtn {
+        width: 90%;
+        margin: 10px 0 0;
+        color: #fff;
+        border-radius: $default-border-radius;
+        background-color: $alert-color;
+        cursor: pointer;
+        text-transform: uppercase;
+
+        &:hover {
+            transition: all .3s ease;
+            filter: drop-shadow(0 0 0.15rem $alert-color);
+        }
+    }
+}
+
+.modalCart.hidden {
+    display: none;
+}

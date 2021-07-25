@@ -3,15 +3,15 @@ import './style.css';
 
 // import { Container } from './styles';
 
-const ProductCard = () => {
+const ProductCard = props => {
     return (
         <div className="productCard">
             <div className="productCard-imgWrapper">
                 <img src="https://img.icons8.com/emoji/256/coin-emoji.png" alt="" />
             </div>
             <div className="productCard-info">
-                <h3 className="info-tittle">50 Coins</h3>
-                <h4 className="info-price">R$50,00</h4>
+                <h3 className="info-tittle">{`${props.data.pruductQt} ${props.data.productName}`}</h3>
+                <h4 className="info-price">{`R$ ${props.data.productPrice}`}</h4>
 
                 <button className="info-bttadd">
                     <div className="btnWrapper-iconWrapper">
